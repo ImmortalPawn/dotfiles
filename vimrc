@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 "Navigate thru tabs
 map <C-t><left> :tabp<cr>
 map <C-t><right> :tabn<cr>
