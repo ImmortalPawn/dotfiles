@@ -1,0 +1,2 @@
+Instalation:
+	git clone 
