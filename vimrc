@@ -9,7 +9,17 @@ map <C-t><left> :tabp<cr>
 map <C-t><right> :tabn<cr>
 
 "Nice to have for syntax
-syntax on
+syntax enable 
+
+set background=dark
+colorscheme molokai 
+
+"This is for colorscheme so background looks clear.
+hi Normal ctermbg=none
+hi Normal guibg=none
+highlight NonText ctermbg=none
+
+
 filetype plugin indent on
 
 set tabstop=4
@@ -23,4 +33,4 @@ set autoread
 autocmd BufRead,BufNewFile   *.c,*.cpp,*.h,*.java set noic cin noexpandtab
 
 "YCM semantics disabled
-"let g:ycm_filetype_specific_completion_to_disable = {'*': 1}
+let g:ycm_filetype_specific_completion_to_disable = {'*': 1}
