@@ -1,17 +1,20 @@
 TODO:
 <br>
-	Add .bashrc.
+&emsp;Add .bashrc
 <br>
-	Add .tmux.conf.
-
+&emsp;Add .tmux.conf
+<br>
+<br>
 Instalation:
 <br>
-	https://github.com/ImmortalPawn/dotfiles
-
+&emsp;git clone https://github.com/ImmortalPawn/dotfiles
+<br>
+<br>
 Create sysmlinks:
 <br>
-	ln -s ~/.vim/vimrc ~/.vimrc
-
+&emsp;ln -s ~/.vim/vimrc ~/.vimrc
+<br>
+<br>
 In case you forget how to synchronize, here is a nice guide:
 <br>
-	http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+&emsp;http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
