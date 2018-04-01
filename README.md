@@ -1,2 +1,5 @@
 Instalation:
-	git clone 
+	https://github.com/ImmortalPawn/dotfiles
+
+Create sysmlinks:
+	ln -s ~/.vim/vimrc ~/.vimrc
