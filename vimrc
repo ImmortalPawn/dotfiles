@@ -12,7 +12,7 @@ map <C-t><right> :tabn<cr>
 syntax enable 
 
 set background=dark
-colorscheme molokai 
+colorscheme happy_hacking 
 
 "This is for colorscheme so background looks clear.
 hi Normal ctermbg=none
