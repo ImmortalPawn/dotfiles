@@ -1,10 +1,3 @@
-TODO:
-<br>
-&emsp;Add .bashrc
-<br>
-&emsp;Add .tmux.conf
-<br>
-<br>
 Instalation:
 <br>
 &emsp;git clone https://github.com/ImmortalPawn/dotfiles
