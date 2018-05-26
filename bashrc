@@ -2,22 +2,18 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-# To create auto updated file, add next tile:
-# source $HOME/.bashrc ~/Documents/GitRepos/myRepo/dotfiles/bashrc
-
-#alias for tso.sh (tmux session opening script)
-alias tso='~/scripts/./tso.sh'
-
-#POWERLINE MLADJAN DODAO
-export TERM="xterm-256color"
-
+# Powerlines
+export TERM="screen-256color"
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
-POWERLINE_BASH_SELECT=1
-. /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh
-#if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh ]; then
-#   source ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
-#fi
+POWERLIEN_BASH_SELECT=1
+. /usr/local/lib/python3.6/dist-packages/powerline/bindings/bash/powerline.sh
+
+# TODO Add source file.
+# EXAMPLE: source $HOME/.bashrc ~/Documents/GitRepos/myRepo/dotfiles/bashrc 
+# Source files are updated automaticlly.
+
+source $HOME/.bash_aliases
 
 # If not running interactively, don't do anything
 case $- in
@@ -131,8 +127,4 @@ if ! shopt -oq posix; then
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
   fi
-fi
-
-if [ -f ~/.bash_aliases ]; then
-. ~/.bash_aliases
 fi
