@@ -4,8 +4,7 @@
 # 	creates tmux session with 5 windows, all with different panes.
 # Usage: 
 #	tmux_init <session_name>
-
-# TODO add global var for argv1
+#	WARNING: THIS HAS TO BE DONE IN NEW TERMINAL INSTANCE!!!
 
 #creating new session
 tmux new-session -d -s  $1
