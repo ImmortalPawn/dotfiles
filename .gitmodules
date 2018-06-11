@@ -1,3 +1,0 @@
-[submodule "bundle/drakula-theme"]
-	path = bundle/drakula-theme
-	url = https://github.com/dracula/vim.git
