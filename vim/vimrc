@@ -49,6 +49,13 @@ set autoread
 
 autocmd BufRead,BufNewFile   *.c,*.cpp,*.h,*.java set noic cin noexpandtab
 
+" Enabling to list characters
+:set listchars=eol:¬,tab:>-,trail:~,extends:>,precedes:<,space:·
+:set list
+noremap <F5> :set list!<CR>
+inoremap <F5> <C-o>:set list!<CR>
+cnoremap <F5> <c-c>:set list!<CR>
+
 " Powerlines
 set rtp+=/usr/local/lib/python3.6/dist-packages/powerline/bindings/vim/
 set laststatus=2
