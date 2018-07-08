@@ -3,11 +3,11 @@
 # for examples
 
 # Powerlines
-export TERM="screen-256color"
-powerline-daemon -q
-POWERLINE_BASH_CONTINUATION=1
-POWERLIEN_BASH_SELECT=1
-. /usr/local/lib/python3.6/dist-packages/powerline/bindings/bash/powerline.sh
+#export TERM="screen-256color"
+#powerline-daemon -q
+#POWERLINE_BASH_CONTINUATION=1
+#POWERLIEN_BASH_SELECT=1
+#. /usr/local/lib/python3.6/dist-packages/powerline/bindings/bash/powerline.sh
 
 # TODO Add source file.
 # EXAMPLE: source $HOME/.bashrc ~/Documents/GitRepos/myRepo/dotfiles/bashrc 
