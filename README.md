@@ -5,10 +5,10 @@ Download repository to preffered <b> path </b>.On example: $HOME/Documents/dotfi
 <br>
 Create next symlinks (example):
 ```
-ln -s $HOME/Documents/dotfiles/Bash/bashrc $HOME/.bashrc
-ln -s $HOME/Documents/dotfiles/Bash/bash_aliases $HOME/.bash_aliases
-ln -s $HOME/Documents/dotfiles/Vim $HOME/.vim
-ln -s $HOME/Documents/dotfiles/Vim/vimrc $HOME/.vimrc
+ln -s path/Bash/bashrc $HOME/.bashrc
+ln -s path/Bash/bash_aliases $HOME/.bash_aliases
+ln -s path/Vim $HOME/.vim
+ln -s path/Vim/vimrc $HOME/.vimrc
 ```
 For basic setup follow <b>guide.txt</b> file for more info.
 <br>
