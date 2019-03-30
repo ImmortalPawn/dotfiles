@@ -1,26 +1,5 @@
-" Start of Vundle.vim (plugin manager)
-
 set nocompatible
 filetype off
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-
-call vundle#end()
-filetype plugin indent on
-
-" Brief help
-" :PluginList - lists configured plugins
-" :PluginInstall - installs plugins; append '!' to update or just
-" :PluginUpdate
-" :PluginSearch foo - searches for foo; append '!' to refresh local cache 
-" :PluginClean - confirms removal of unused plugins; append '!' to
-" auto-approve removal
-
-" End of Vundle.vim (plugin manager)
 
 " Navigate thru tabs
 map <C-t><left> :tabp<cr>
@@ -54,8 +33,3 @@ autocmd BufRead,BufNewFile   *.c,*.cpp,*.h,*.java set noic cin noexpandtab
 noremap <F5> :set nolist!<CR>
 inoremap <F5> <C-o>:set nolist!<CR>
 cnoremap <F5> <c-c>:set nolist!<CR>
-
-" Powerlines
-set rtp+=/usr/local/lib/python3.6/dist-packages/powerline/bindings/vim/
-set laststatus=2
-set t_Co=256

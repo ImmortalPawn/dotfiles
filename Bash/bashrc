@@ -2,17 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-# Powerlines
-#export TERM="screen-256color"
-#powerline-daemon -q
-#POWERLINE_BASH_CONTINUATION=1
-#POWERLIEN_BASH_SELECT=1
-#. /usr/local/lib/python3.6/dist-packages/powerline/bindings/bash/powerline.sh
-
-# TODO Add source file.
-# EXAMPLE: source $HOME/.bashrc ~/Documents/GitRepos/myRepo/dotfiles/bashrc 
-# Source files are updated automaticlly.
-
 source $HOME/.bash_aliases
 
 # If not running interactively, don't do anything
@@ -128,3 +117,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+SPRING_HOME=/opt/spring-2.1.3.RELEASE
+PATH=$PATH:$HOME/bin:$SPRING_HOME/bin
+export SPRING_HOME
+export PATH
