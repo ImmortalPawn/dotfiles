@@ -1,9 +1,13 @@
-Installation:
+Dotfiles are made for Ubuntu 18.04 LTS.
 <br>
-Clone repository to preffered <b>GIT_REPO_PATH</b>. On example: $HOME/Documents/dotfiles.
+Scripts and configs are made for Lenovo Thinkpad T480.
 <br>
+Clone repository to preferred \<path\>. On example: $HOME/Documents/dotfiles.
 <br>
-Create next symlinks:
+Visual Studio Code:
+1. Delete default user's settings.json file if it exists.
+<br>
+2. Create symlink
 ```
-ln -s $HOME/<GIT_REPO_PATH>/VSCode/settings.json $HOME/.config/Code/User/settings.json
+ln -s <path>/VSCode/settings.json $HOME/.config/Code/User/settings.json
 ```
