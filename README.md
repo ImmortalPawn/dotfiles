@@ -6,7 +6,8 @@ git clone https://github.com/ImmortalPawn/dotfiles.git ~/.dotfiles
 ```
 2. Create symlinks in the Home directory to the real files in the repo.
 ```
-ln -s ~/dotfiles/Visual\ Studio\ Code/settings.json ~/.config/Code/User/settings.json
+ln -s ~/.dotfiles/Visual\ Studio\ Code/settings.json ~/.config/Code/User/settings.json
+ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ```
 ## TODO List
 * Add IntelliJ IDEA settings.
