@@ -5,5 +5,6 @@
 
 # Default configuration
 # GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
-
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash psmouse.synaptics_intertouch=0" #Added to prevent touchpad malfunction after laptop suspends
+#
+#Added to prevent touchpad malfunction after laptop suspends
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash psmouse.synaptics_intertouch=0" 
