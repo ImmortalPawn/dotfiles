@@ -15,5 +15,4 @@ ln -s ~/.dotfiles/Git/.gitconfig ~/.gitconfig
 ```
 ## TODO List
 * Add IntelliJ IDEA settings.
-* Add Eclipse settings.
 * Automate symlinking.
