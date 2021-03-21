@@ -1,3 +1,12 @@
 [user]
 	name = ImmortalPawn
 	email = 30688679+ImmortalPawn@users.noreply.github.com
+[core]
+	editor = vim
+	autocrlf = input
+[init]
+	defaultBranch = master
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"

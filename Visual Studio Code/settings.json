@@ -1,6 +1,4 @@
 {
-    "window.zoomLevel": 0,
-    "editor.wordWrap": "on",
     "editor.lineNumbers": "relative",
     "workbench.colorTheme": "Visual Studio Dark",
 }
